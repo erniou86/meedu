@@ -1,0 +1,75 @@
+{
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Web 开发入门",
+      "description": "从 HTML/CSS/JS 到部署上线的完整入门课",
+      "price": 0,
+      "cover": "https://placehold.co/600x340?text=Web",
+      "chapters": [
+        {
+          "id": "ch1",
+          "title": "HTML 基础",
+          "video": "https://example.com/videos/html.mp4",
+          "duration": "12:30"
+        },
+        {
+          "id": "ch2",
+          "title": "CSS 布局",
+          "video": "https://example.com/videos/css.mp4",
+          "duration": "18:05"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Python 数据分析",
+      "description": "pandas + matplotlib 实战，完成 3 个真实项目",
+      "price": 49.9,
+      "cover": "https://placehold.co/600x340?text=Python",
+      "chapters": [
+        {
+          "id": "ch3",
+          "title": "pandas 入门",
+          "video": "https://example.com/videos/pandas.mp4",
+          "duration": "22:10"
+        },
+        {
+          "id": "ch4",
+          "title": "数据可视化",
+          "video": "https://example.com/videos/viz.mp4",
+          "duration": "15:45"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "AI 绘画实战",
+      "description": "Stable Diffusion 工作流与 LoRA 训练",
+      "price": 99,
+      "cover": "https://placehold.co/600x340?text=AI",
+      "chapters": [
+        {
+          "id": "ch5",
+          "title": "ComfyUI 工作流",
+          "video": "https://example.com/videos/comfyui.mp4",
+          "duration": "30:00"
+        }
+      ]
+    }
+  ],
+  "purchases": [
+    {
+      "courseId": "c2",
+      "userId": "smoke",
+      "at": "2026-09-18T06:35:33.995Z",
+      "amount": 49.9
+    },
+    {
+      "courseId": "c1",
+      "userId": "u-smoke",
+      "at": "2026-09-18T07:07:05.729Z",
+      "amount": 0
+    }
+  ]
+}

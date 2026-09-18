@@ -1,0 +1,14 @@
+{
+  "name": "meedu",
+  "version": "1.0.0",
+  "description": "开源在线教育平台（Express API + Vue 3 前端）",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
